@@ -1,3 +1,22 @@
-*{
-    background: red;
+/* index file  */
+.square{
+    border: 1px solid white;
+    height: 50vh;
+    padding: 2px
+}
+
+.first{
+ background: red;
+}
+
+.second{
+ background: gray
+}
+
+.third{
+ background: black
+}
+
+.fourth{
+ background: blue
 }
