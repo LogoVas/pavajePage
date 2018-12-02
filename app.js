@@ -10,7 +10,7 @@ app.set("view engine","ejs");
 
 
 app.get("/",(req,res)=>{
-    res.render("index");
+    res.render("index"); //
 });
 
 app.get("/contact",(req, res) =>{
@@ -30,3 +30,4 @@ app.get("/desprenoi",(req, res) =>{
 app.listen(process.env.PORT || 8080, () =>{
     console.log("Server started!");
 });
+//Geanii. Sa-mi bag pl in git

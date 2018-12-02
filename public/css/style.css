@@ -4,6 +4,8 @@
     border: 1px solid white;
     height: 50vh;
     width: 50vw;
+    text-align: center;
+    padding-top: 20vh;
 }
 
 .first{
@@ -20,4 +22,16 @@
 
 .fourth{
  background: blue
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: transparent;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+    padding-top: 5vh;
 }
