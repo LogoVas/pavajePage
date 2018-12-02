@@ -13,6 +13,20 @@ app.get("/",(req,res)=>{
     res.render("index");
 });
 
+app.get("/contact",(req, res) =>{
+    res.render("contact");
+});
+app.get("/preturi",(req, res) =>{
+    res.render("preturi");
+});
+app.get("/modele",(req, res) =>{
+    res.render("modele");
+});
+
+app.get("/desprenoi",(req, res) =>{
+    res.render("desprenoi");
+});
+
 app.listen(process.env.PORT || 8080, () =>{
     console.log("Server started!");
 });
