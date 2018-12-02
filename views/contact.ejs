@@ -1,1 +1,83 @@
-<h1>Contact page</h1>
+<% include ./partials/header %>
+
+<div class="container" style="padding:50px 0px">
+    <div class="row">
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+            <!-- contact form -->
+            <h3 >Nu ezitați să ne contactați!</h3>
+
+            <form>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email"
+                    aria-describedby="emailHelp" placeholder="Enter email" name="email">
+                    <small id="emailHelp" class="form-text text-muted">Adresa dvs. de email va rămâne confindențială .</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="pass">Parolă</label>
+                    <input type="password" class="form-control" id="pass" name="password" placeholder="Password">
+                </div>
+
+                <div class="form-group">
+                    <label for="phoneNumber">Număr de telefon</label>
+                    <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="">
+                </div>
+
+                <div class="form-group">
+                    <label for="msg">Mesaj</label>
+                    <textarea class="form-control" id="msg" rows="3" name="msg" placeholder=""></textarea>
+                </div>
+
+
+
+                <button type="submit" class="btn btn-outline-dark">Trimite mesaj</button>
+                </form>
+
+
+        </div>
+
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+            <!-- contact data form -->
+
+            <h3>Oricand la dispozitia dumneavoastra!</h3>
+
+            <div class="form-group row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="logopavaje@yahoo.com">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="phone" class="col-sm-2 col-form-label">Telefon: </label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="phone" value="0756990277">
+                </div>
+            </div>
+
+
+            <div class="form-group row">
+                <label for="staticEmail" class="col-sm-2 col-form-label">Program </label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="(Luni - Vineri ): 08 - 12">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label for="staticEmail" class="col-sm-2 col-form-label"></label>
+                <div class="col-sm-10">
+                    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Duminică : Închis">
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<% include ./partials/bottom %>
