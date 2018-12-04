@@ -1,44 +1,24 @@
-
-/* put same background color for all squares */
-.first , .second, .third, .fourth{
-    background-image: url("https://images.unsplash.com/photo-1512921709377-a2822d4e27c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80")
+/* put the background image */
+.wall{
+    background-image: url("https://cdn.hipwallpaper.com/i/17/28/wu8E5H.jpg");
+    background-position: 100% 0;
+    background-size: 100%;
+    height: 300px;
 }
 
-/* index file  */
-.square{
-    border: 1px solid #B0B9C2;
-    height: 50vh;
-    width: 50vw;
+.row{
+    padding-top: 5vh;
+}
+
+/* put the button on the middle */
+.buton{
     text-align: center;
-    padding-top: 20vh;
+    color: white;
 }
 
-.first{
- /* background: #936A9E; */
-}
-
-.second{
- /* background: #429485 */
-}
-
-.third{
- /* background: #797AFF */
-}
-
-.fourth{
- /* background: #767C82 */
-}
-
-.indexBtn{
-    color: black;
-}
-
-.indexBtn:hover{
-    padding: 30px;
-    margin-top:-30px;
-    color:white;
+/* put the information on the middle */
+.info{
     text-align: center;
-
 }
 
 .pageFont{
