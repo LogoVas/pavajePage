@@ -1,3 +1,7 @@
+body{
+    background: #f9f9f9;
+}
+
 
 /* put same background color for all squares */
 .first , .second, .third, .fourth{
