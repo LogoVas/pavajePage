@@ -1,7 +1,12 @@
 
+/* put same background color for all squares */
+.first , .second, .third, .fourth{
+    background-image: url("https://images.unsplash.com/photo-1512921709377-a2822d4e27c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80")
+}
+
 /* index file  */
 .square{
-    border: 1px solid white;
+    border: 1px solid #B0B9C2;
     height: 50vh;
     width: 50vw;
     text-align: center;
@@ -9,29 +14,33 @@
 }
 
 .first{
- background: red;
+ /* background: #936A9E; */
 }
 
 .second{
- background: gray
+ /* background: #429485 */
 }
 
 .third{
- background: black
+ /* background: #797AFF */
 }
 
 .fourth{
- background: blue
+ /* background: #767C82 */
 }
 
-a{
-    color: white;
+.indexBtn{
+    color: black;
 }
 
-a:hover{
-    color: transparent;
-    width: 250px;
-    height: 100px;
+.indexBtn:hover{
+    padding: 30px;
+    margin-top:-30px;
+    color:white;
     text-align: center;
-    padding-top: 5vh;
+
+}
+
+.pageFont{
+    font-family: 'Roboto Condensed', sans-serif;
 }
