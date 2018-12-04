@@ -1,0 +1,24 @@
+.navbar-brand {
+    float:none;
+    font-family: 'Pacifico', cursive;
+}
+
+
+/* fix navbar bug (Button not working on phone) */
+@media all and (min-width: 991px) {
+    .navbar{
+        height: 70px !important;
+    }
+ }
+
+/* delete phone number on tablet/phone rez */
+@media all and (max-width: 991px) {
+    .phoneNumber{
+        display: none;
+    }
+ }
+@media all and (max-width: 575px) {
+    .phoneNumber{
+        display: none;
+    }
+ }
