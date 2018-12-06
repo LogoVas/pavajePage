@@ -9,6 +9,9 @@
     .navbar{
         height: 70px !important;
     }
+    .phoneTitle{
+        display: none;
+    }
  }
 
 /* delete phone number on tablet/phone rez */
@@ -16,6 +19,7 @@
     .phoneNumber{
         display: none;
     }
+
  }
 @media all and (max-width: 575px) {
     .phoneNumber{
