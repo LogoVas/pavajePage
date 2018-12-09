@@ -43,23 +43,35 @@
 /* make the bar bigger when is in mobile mode */
 @media only screen and (max-width: 768px){
     .bigger {
-        height: 200px;
+        height: 270px;
     }
     .wall{
         height: 450px;
     }
 }
-/* footer */
+/* FOOTER */
 .footer{
     background-color: #343a40!important;
-    height: 80px;
+    height: 130px;
     color: white;
     text-align: center;
+    margin-top: 50px;
 }
 
 .copyrighttext{
-    padding-top: 2vh;
+    padding-top: 3vh;
 }
+.vLink{
+    color: white;
+    text-decoration: none !important;
+}
+/* INDEX ROUTE */
+
+/* shadows of title */
+.title,.secondtitle{
+    text-shadow:  2px 2px #343a40;
+}
+
 /* index  title */
 .title{
     padding-top: 120px;
@@ -87,8 +99,10 @@
 
 .context{
     padding-top:100px;
-    font-family: 'Kalam', cursive;
+    /* font-family: 'Kalam', cursive; */
+    font-family: 'Roboto Condensed', sans-serif;
     size:20px;
+    text-align: center;
 }
 
 /* put the button on the middle */
@@ -117,5 +131,22 @@
 
 /* MODELE ROUTE */
 .modelImgs{
- width: 300px;
+ width: 100%;
+ margin: 20px 0px;
 }
+/* modal config */
+.modal-header{
+    /* delete downwards x hr */
+    border-bottom: none;
+}
+.modal-body {
+    padding: 0;
+}
+
+/* make modal bigger on >991px (desktop size) */
+@media all and (min-width: 991px) {
+    .modal-content{
+        width: 114%;
+        margin-left: -7%;
+    }
+ }
