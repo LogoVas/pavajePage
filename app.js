@@ -16,8 +16,8 @@ app.get("/",(req,res)=>{
 app.get("/contact",(req, res) =>{
     res.render("contact");
 });
-app.get("/preturi",(req, res) =>{
-    res.render("preturi");
+app.get("/montaj",(req, res) =>{
+    res.render("montaj");
 });
 app.get("/modele",(req, res) =>{
     res.render("modele");

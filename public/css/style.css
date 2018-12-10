@@ -9,6 +9,39 @@
     border-image-repeat: no-repeat;
 }
 
+/* put the montaj background image */
+.montajwall{
+    background-image: url("https://pavaje-timisoara.ro/wp-content/uploads/2018/08/montare-pavaj-2-culori-casa-duplex-amenajari-curti-exterioare-01.jpg");
+    background-position: 100% ;
+    background-size: 100%;
+    height: 350px;
+    background-size: cover;
+    border-image-repeat: no-repeat;
+}
+/* put the border and set how big will be */
+.Paragraf{
+    border-left: thick solid #343a40!important;
+    width: 80%;
+}
+
+.ParagrafDreapta{
+    border-left: thick solid #343a40!important;
+}
+
+/* the space between border and text */
+#spatiu{
+    padding-left: 20px;
+}
+/* title of paragraf */
+#enumerare{
+    padding-top: 3vh;
+    font-size: 30px;
+}
+/* space for paragraphs which is in the right part */
+.dreapta{
+    padding-left: 40vh;
+}
+
 .row{
     padding-top: 3vh;
 }
@@ -47,6 +80,19 @@
     }
     .wall{
         height: 450px;
+    }
+    .dreapta{
+        padding-left: 0;
+    }
+    #enumerare{
+        text-align: center;
+    }
+    #spatiu{
+        text-align: center;
+    }
+    .Paragraf{
+        width: 100%;
+        border-left: thick solid #343a40!important;
     }
 }
 /* FOOTER */
