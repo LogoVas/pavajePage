@@ -9,12 +9,13 @@ app.use(bodyParser.urlencoded({extended:true}));
 // APP SETTINGS
 // node mailer settings
 transporter = nodemailer.createTransport({
-    host: 'smtp.gmail.com',
-    port: 465,
-    secure: true, // use SSL
+    service: 'Gmail',
+    // host: 'smtp.gmail.com',
+    // port: 465,
+    // secure: true, // use SSL
     auth: {
-        user: 'pavajelog@gmail.com',
-        pass: 'logpavele'
+        user: process.env.USER,
+        pass: process.env.PASS
     }
 });
 
@@ -32,7 +33,9 @@ app.post("/sendEmail",(req,res)=>{
     var data={
 
         name:req.body.name,
-        to:'ionut20001@yahoo.com',
+        // to:'ionutlogofatu@yahoo.com',
+        to:'ionutlogofatu@yahoo.com',
+
         subject:req.body.email+"  Telefon:"+req.body.phoneNumber,
         text:req.body.msg
 
