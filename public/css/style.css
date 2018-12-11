@@ -20,11 +20,12 @@
 }
 
 .Desprenoiwall{
-    background-image: url("https://vchipedu.com/images/about-us.jpg");
-    background-position: 100% ;
+    background-image: url("http://dueexhibitions.com/wp-content/uploads/sites/34/2016/09/about-us.jpg");
+    background-position: 100% 0;
     background-size: 100%;
     height: 350px;
     background-size: cover;
+    border-image-repeat: no-repeat;
 }
 /* put the border and set how big will be */
 .Paragraf{
