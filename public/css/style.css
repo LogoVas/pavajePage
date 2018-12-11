@@ -87,6 +87,12 @@
     background-color: #343a40!important;
 }
 
+@media only screen and (max-width:990px){
+    .bigger{
+        height: 200px;
+    }
+}
+
 /* make the bar bigger when is in mobile mode */
 @media only screen and (max-width: 768px){
     .bigger {
@@ -107,6 +113,12 @@
     .Paragraf{
         width: 100%;
         border-left: thick solid #343a40!important;
+    }
+    #servicii{
+      padding:0;
+    }
+    .Desprenoiwall{
+        height: 250px;
     }
 }
 /* FOOTER */
