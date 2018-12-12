@@ -97,6 +97,25 @@
         height: 200px;
     }
 }
+.content{
+    min-height: 100%;
+}
+
+#contactfooter{
+    position:fixed;
+    bottom: 0;
+    background-color: #343a40!important;
+    height: 130px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    clear: both;
+    width: 100%;
+}
+
+.contactcopyrighttext{
+    padding-top: 3vh;
+}
 
 /* make the bar bigger when is in mobile mode */
 @media only screen and (max-width: 768px){

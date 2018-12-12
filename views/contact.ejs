@@ -1,82 +1,86 @@
 <% include ./partials/header %>
 
-<div class="container" style="padding-top:50px">
-    <div class="row">
+<div class="content">
+    <div class="container" style="padding-top:50px">
+        <div class="row">
 
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
-            <!-- contact form -->
-            <h3 class="pageFont">Nu ezitați să ne contactați!</h3>
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-8">
+                <!-- contact form -->
+                <h3 class="pageFont">Nu ezitați să ne contactați!</h3>
 
-            <form action="/sendEmail" method="POST">
+                <form action="/sendEmail" method="POST">
 
-                <div class="form-group">
-                    <label for="email" class="pageFont">Email</label>
-                    <input type="email" class="form-control" id="email"
-                    aria-describedby="emailHelp" placeholder="Enter email" name="email">
-                    <small id="emailHelp" class="form-text text-muted pageFont">Adresa dvs. de email va rămâne confindențială .</small>
-                </div>
+                    <div class="form-group">
+                        <label for="email" class="pageFont">Email</label>
+                        <input type="email" class="form-control" id="email"
+                        aria-describedby="emailHelp" placeholder="Enter email" name="email">
+                        <small id="emailHelp" class="form-text text-muted pageFont">Adresa dvs. de email va rămâne confindențială .</small>
+                    </div>
 
-                <div class="form-group">
-                    <label for="name" class="pageFont">Nume</label>
-                    <input  class="form-control" id="name" name="name" placeholder="Nume">
-                </div>
+                    <div class="form-group">
+                        <label for="name" class="pageFont">Nume</label>
+                        <input  class="form-control" id="name" name="name" placeholder="Nume">
+                    </div>
 
-                <div class="form-group">
-                    <label for="phoneNumber" class="pageFont">Număr de telefon</label>
-                    <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="07x xxx xxxx">
-                </div>
+                    <div class="form-group">
+                        <label for="phoneNumber" class="pageFont">Număr de telefon</label>
+                        <input type="number" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="07x xxx xxxx">
+                    </div>
 
-                <div class="form-group">
-                    <label for="msg" class="pageFont">Mesaj</label>
-                    <textarea class="form-control" id="msg" rows="3" name="msg" placeholder=""></textarea>
-                </div>
+                    <div class="form-group">
+                        <label for="msg" class="pageFont">Mesaj</label>
+                        <textarea class="form-control" id="msg" rows="3" name="msg" placeholder=""></textarea>
+                    </div>
 
-                <button type="submit" class="btn btn-outline-dark pageFont">Trimite mesaj</button>
+                    <button type="submit" class="btn btn-outline-dark pageFont">Trimite mesaj</button>
 
-            </form>
+                </form>
 
-        </div>
-
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-            <!-- contact data form -->
-
-            <h3 class="pageFont">Oricând la dispoziția dumneavoastră!</h3>
-
-            <div class="form-group row">
-                <label for="staticEmail" class="col-sm-2 col-form-label pageFont">Email</label>
-                <div class="col-sm-10">
-                    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="logopavaje@yahoo.com">
-                </div>
             </div>
 
-            <div class="form-group row">
-                <label for="phone" class="col-sm-2 col-form-label pageFont">Telefon: </label>
-                <div class="col-sm-10">
-                    <input type="text" readonly class="form-control-plaintext" id="phone" value="0756990277">
+            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                <!-- contact data form -->
+
+                <h3 class="pageFont">Oricând la dispoziția dumneavoastră!</h3>
+
+                <div class="form-group row">
+                    <label for="staticEmail" class="col-sm-2 col-form-label pageFont">Email</label>
+                    <div class="col-sm-10">
+                        <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="logopavaje@yahoo.com">
+                    </div>
                 </div>
-            </div>
+
+                <div class="form-group row">
+                    <label for="phone" class="col-sm-2 col-form-label pageFont">Telefon: </label>
+                    <div class="col-sm-10">
+                        <input type="text" readonly class="form-control-plaintext" id="phone" value="0756990277">
+                    </div>
+                </div>
 
 
-            <div class="form-group row">
-                <label for="staticEmail" class="col-sm-2 col-form-label pageFont">Program </label>
-                <div class="col-sm-10">
-                    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Luni - Sambâta : 08:00 - 18:00">
+                <div class="form-group row">
+                    <label for="staticEmail" class="col-sm-2 col-form-label pageFont">Program </label>
+                    <div class="col-sm-10">
+                        <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Luni - Sambâta : 08:00 - 18:00">
+                    </div>
                 </div>
-            </div>
 
-            <div class="form-group row">
-                <label for="staticEmail" class="col-sm-2 col-form-label"></label>
-                <div class="col-sm-10">
-                    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Duminică : Închis">
+                <div class="form-group row">
+                    <label for="staticEmail" class="col-sm-2 col-form-label"></label>
+                    <div class="col-sm-10">
+                        <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Duminică : Închis">
+                    </div>
                 </div>
+
             </div>
 
         </div>
 
     </div>
-
 </div>
 
-
-
+<footer id="contactfooter">
+        <p class="contactcopyrighttext">&copy Copyright 2018 Logo Paveje. Toate drepturile sunt rezervate.<br>
+        Made by Logofatu Ionut.</p>
+</footer>
 <% include ./partials/bottom %>
