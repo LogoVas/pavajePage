@@ -91,10 +91,25 @@
     padding-left: 30%;
     padding-top: 8px;
 }
+@media only screen and (max-width:1900px){
+    .contactfo{
+        position: relative;
+    clear: both;
+    background-color: #343a40!important;
+    height: 130px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    }
+}
 
 @media only screen and (max-width:990px){
     .bigger{
         height: 200px;
+    }
+    #contactfooter{
+    position: relative;
+    clear: both;
     }
 }
 .content{
