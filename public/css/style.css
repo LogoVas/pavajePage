@@ -117,13 +117,14 @@
 }
 
 #contactfooter{
-    position:fixed;
+    /* margin-top: 20vh; */
+    /* position:fixed; */
     bottom: 0;
     background-color: #343a40!important;
     height: 130px;
     color: white;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 15vh;
     clear: both;
     width: 100%;
 }
